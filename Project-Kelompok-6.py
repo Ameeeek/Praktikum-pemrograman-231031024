@@ -220,12 +220,7 @@ def pengeluaran():  # ini fungsi untuk mencatata pengeluaran
     keluar = True # inisialisasi variabel keluar dengan nilai boolean sebagai pembuka loop 
     global saldo, history # menginisialisasi variabel global saldo dan history agar dapat digunakan di fungsi 
     while keluar == True:
-        # pengeluaran = int(input("masukkan pengeluaran: "))
-        # if pengeluaran < 0: 
-        #     print("Pengeluaran tidak boleh sama dengan atau kurang dari 0 !\nharap catat pengeluaran dengan benar!\nSistem akan mengembalikan anda ke menu dalam beberapa detik.")
-        #     time.sleep(2)
-        #     break
-        try: 
+        try: # kode try except untuk mengantisipasi input user yang 
             pengeluaran = int(input("masukkan pengeluaran (dalam bentuk angka): "))
             if pengeluaran <= 0: 
                 print("Pengeluaran tidak boleh sama dengan atau kurang dari 0 atau berbentuk karakter!!\nharap catat pengeluaran dengan benar!\nSistem akan mengembalikan anda ke menu dalam beberapa detik.")
