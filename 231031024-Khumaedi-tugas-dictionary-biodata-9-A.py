@@ -1,7 +1,7 @@
 biodata = {
-    "nama" : "Reski Septiawan",
-    "TTL" : "Parepare, 8 September 2005",
-    "Hobi" : ["Olahraga", "Main Gitar", "Baca novel", "Menggambar"],
+    "nama" : "Khumaedi",
+    "TTL" : "Parepare, 6 Januari 2005",
+    "Hobi" : ["Olahraga", "Baca Buku", "ngoding", "Tidur"],
     "Agama" : "Islam",
     "Pekerjaan" : "Mahasiswa"   
 }
